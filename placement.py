@@ -2,15 +2,15 @@ import streamlit as st
 # streamlit run placement.py
 
 def main():
-    st.title("MY Placement Websitte")
+    st.title("My placement Website")
     st.markdown("---")
 
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Home", "About", "Projects", "Placement Task over 40", "Contact"])
 
     if page == "Home":
-        st.header("Welcome to My Portfolio!")
-        st.write("This is the home page of my Placement Portfolio website.")
+        st.header("Welcome to My placement Website!")
+        st.write("This is the home page of my Placement  website.")
     
     elif page == "About":
         st.header("About Me")
